@@ -19,7 +19,7 @@ $getMhs = $mhs->getAll();
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <style>
-        th{
+        th {
             background-color: yellow;
             text-align: center;
         }
@@ -131,7 +131,13 @@ $getMhs = $mhs->getAll();
                                                             </div>
                                                             <div class="form-group">
                                                                 Mahasiswa
-                                                                <input type="text" name="mhs" class="form-control form-control-sm" value="<?= $a['mahasiswa'] ?>">
+                                                                <select name="mhs" class="form-control form-control-sm selectpicker" data-live-search="true">
+                                                                    <option value="<?= $a['mahasiswa'] ?>" selected><?= $a['mahasiswa'] ?></option>
+                                                                    <?php
+                                                                    foreach ($getMhs as $b) {
+                                                                        echo "<option value='$b[nama]'>$b[nama]</option>";
+                                                                    } ?>
+                                                                </select>
                                                             </div>
                                                             <div class="form-group">
                                                                 Tanggal Bimbingan
