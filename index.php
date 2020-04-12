@@ -20,7 +20,6 @@ $getMhs = $mhs->getAll();
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <style>
         th {
-            background-color: yellow;
             text-align: center;
         }
     </style>
@@ -85,7 +84,7 @@ $getMhs = $mhs->getAll();
                 <div class="table-responsive">
                     <table class="table table-sm table-bordered table-hover" id="table">
                         <thead>
-                            <tr>
+                            <tr class="bg-primary text-white">
                                 <th class="font-weight-normal">No</th>
                                 <th class="font-weight-normal">Nama Dosen</th>
                                 <th class="font-weight-normal">Nama Mahasiswa</th>
@@ -225,13 +224,15 @@ $getMhs = $mhs->getAll();
                 <div class="table-responsive">
                     <table class="table table-sm table-bordered table-hover" id="table1">
                         <thead>
-                            <th class="font-weight-normal">No</th>
-                            <th class="font-weight-normal">NPM</th>
-                            <th class="font-weight-normal">Nama</th>
-                            <th class="font-weight-normal">Tempat Lahir</th>
-                            <th class="font-weight-normal">Tanggal Lahir</th>
-                            <th class="font-weight-normal">Jenis Kelamin</th>
-                            <th class="font-weight-normal">Opsi</th>
+                            <tr class="bg-primary text-white">
+                                <th class="font-weight-normal">No</th>
+                                <th class="font-weight-normal">NPM</th>
+                                <th class="font-weight-normal">Nama</th>
+                                <th class="font-weight-normal">Tempat Lahir</th>
+                                <th class="font-weight-normal">Tanggal Lahir</th>
+                                <th class="font-weight-normal">Jenis Kelamin</th>
+                                <th class="font-weight-normal">Opsi</th>
+                            </tr>
                         </thead>
                         <tbody>
                             <?php
@@ -363,9 +364,9 @@ $getMhs = $mhs->getAll();
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
