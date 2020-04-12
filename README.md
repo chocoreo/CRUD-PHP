@@ -4,11 +4,11 @@ Create, Read, Update, Delete with PDO PHP
 # Library yang digunakan :
   1. CSS :
      * Bootstrap v4.4.1
-       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+       https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css
      * DataTables Bootstrap
-       <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
+       https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css
      * Bootstrap Select Picker
-       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
+       https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css
      * Font Awesome v4.7.0
        https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
        
