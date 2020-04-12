@@ -1,7 +1,9 @@
 # CRUD-PHP
 Create, Read, Update, Delete with PDO PHP
 Tugas Pemograman Web II - STMIK Multi Data Palembang
-    I Love Primary~ xD
+
+NB : I Love Primary~ xD
+
 # Library yang digunakan :
   1. CSS :
      * Bootstrap v4.4.1
